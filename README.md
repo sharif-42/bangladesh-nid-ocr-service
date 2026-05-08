@@ -26,9 +26,9 @@ Supports **dual AI backends** — switch between **OpenAI Vision** (cloud) and a
 |-------------------|----------------------------------------------|--------------------------------|
 | `name_bn`         | Full name in Bangla                          | `মোঃ শরিফুল ইসলাম`            |
 | `name_en`         | Full name in English                         | `MD. SHARIFUL ISLAM`           |
-| `father_name_bn`  | Father's full name in Bangla                 | `মোঃ আব্দুল করিম`             |
-| `mother_name_bn`  | Mother's full name in Bangla                 | `মোসাঃ ফাতেমা বেগম`            |
-| `date_of_birth`   | Date of birth as printed on the card         | `12 May 1975`                  |
+| `father_name_bn`  | Father's full name in Bangla                 | `মোঃ XXXXX XXXXX`             |
+| `mother_name_bn`  | Mother's full name in Bangla                 | `মোসাঃ XXXXX XXXXX`            |
+| `date_of_birth`   | Date of birth as printed on the card         | `1 Jan 1900`                  |
 | `nid_number`      | NID number as printed, preserving spaces     | `1234567890`                   |
 
 ---
