@@ -11,5 +11,9 @@ class LocalAINIDExtractor(OCRService):
     def __init__(self) -> None:
         pass
 
-    def extract_nid_info(self, image: bytes) -> NIDInfo:
-        pass
+    async def encode_image_to_base64(self, image_bytes: bytes) -> bytes:
+        return base64.b64encode(image_bytes).decode("utf-8")
+
+    async def extract_nid_info(self, image_bytes: bytes, content_type: str) -> NIDInfo:
+        return {}
+
